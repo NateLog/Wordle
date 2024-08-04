@@ -18,6 +18,8 @@ function Game() {
   const [guessList, setGuessList] = React.useState([]);
   const [wonLost, setWonLost] = React.useState("onGoing");
 
+  console.log("commit from VS");
+
   function HandleNewGuess(newWord) {
     const checkedResult = checkGuess(newWord, answer);
 
